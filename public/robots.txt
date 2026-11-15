@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://creax3d.pages.dev/sitemap.xml

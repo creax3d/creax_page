@@ -1,0 +1,12 @@
+node_modules
+dist
+.wrangler
+shots
+shot*.mjs
+*.tsbuildinfo
+*.local
+.env
+.env.*
+.DS_Store
+
+/scripts
