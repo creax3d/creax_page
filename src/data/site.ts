@@ -410,6 +410,58 @@ export const projects: Project[] = [
     glow: "rgba(79,140,255,0.3)",
     bg: "linear-gradient(150deg,#0b1428,#08090a 65%)",
   },
+  {
+    slug: "myur-import",
+    name: "MYUR Import",
+    category: "Tiendas",
+    type: "Tienda online + panel de control",
+    year: "2026",
+    client: "MYUR Import · Santo Domingo, República Dominicana",
+    summary:
+      "Tienda de suplementos deportivos con 69 productos, carrito, checkout, cuentas de cliente y un panel completo para operar pedidos, inventario y envíos.",
+    description:
+      "MYUR Import es una tienda de suplementos deportivos y accesorios de entrenamiento con sede en Santo Domingo. El sitio funciona como e-commerce completo: catálogo de 69 productos en 6 categorías, búsqueda y filtros por categoría, objetivo, precio y disponibilidad, fichas con sabores, tamaños, información nutricional y reseñas. El cliente compra con carrito, cupones y checkout, crea su cuenta, guarda favoritos y consulta el estado de su pedido. Todo se administra desde un panel privado, con chat de soporte y notificaciones en tiempo real.",
+    panelDescription:
+      "El panel de MYUR es el centro de operaciones de la tienda. El dashboard resume ingresos totales y de los últimos 30 días, pedidos, ticket promedio, clientes y estado de las órdenes. Desde pedidos se gestionan estados (pendiente, en preparación, enviado, entregado, cancelado o reembolsado), pagos, guía de envío y notas internas, con exportación a CSV. El catálogo permite crear y editar productos con sabores, tamaños, beneficios, ingredientes, información nutricional, SEO y visibilidad; además controla stock, alertas de stock bajo y productos destacados. Se suman categorías, clientes con historial y valor de compra, métodos de envío con costos y envío gratis, cupones de monto fijo, porcentaje o envío gratis, moderación de reseñas, chat en vivo, mensajes de contacto, biblioteca de media, campañas push y ajustes de identidad, operación, pagos, redes y seguridad.",
+    panelFeatures: [
+      "Dashboard con ingresos, pedidos, ticket promedio y clientes",
+      "Pedidos con estados, pagos, envíos y notas internas",
+      "Catálogo con sabores, stock, SEO y visibilidad",
+      "Categorías, clientes y biblioteca de media",
+      "Métodos de envío, cupones y moderación de reseñas",
+      "Chat de soporte y mensajes de contacto",
+      "Notificaciones push y ajustes de la tienda",
+    ],
+    adminGallery: [
+      { label: "Catálogo e inventario", image: "/portafolio/myur-import/admin/productos.jpg" },
+      { label: "Categorías del catálogo", image: "/portafolio/myur-import/admin/categorias.jpg" },
+      { label: "Métodos de envío", image: "/portafolio/myur-import/admin/envios.jpg" },
+      { label: "Cupones y descuentos", image: "/portafolio/myur-import/admin/cupones.jpg" },
+      { label: "Ajustes de la tienda", image: "/portafolio/myur-import/admin/ajustes.jpg" },
+    ],
+    features: [
+      "Catálogo de 69 productos en 6 categorías",
+      "Búsqueda, filtros y orden por objetivo",
+      "Carrito, checkout y cupones de descuento",
+      "Cuentas de cliente y seguimiento de pedidos",
+      "Reseñas, favoritos y chat en vivo",
+    ],
+    tags: ["Tienda", "E-commerce", "Pagos", "Panel admin"],
+    images: {
+      desktop: "/portafolio/myur-import/desktop.jpg",
+      tablet: "/portafolio/myur-import/tablet.jpg",
+      mobile: "/portafolio/myur-import/mobile.jpg",
+    },
+    adminImages: {
+      desktop: "/portafolio/myur-import/admin/desktop.jpg",
+      tablet: "/portafolio/myur-import/admin/tablet.jpg",
+      mobile: "/portafolio/myur-import/admin/mobile.jpg",
+    },
+    url: "https://myurimport.creax3d.workers.dev/",
+    accent: "#d9b45b",
+    glow: "rgba(217,180,91,0.3)",
+    bg: "linear-gradient(150deg,#221c0c,#08090a 65%)",
+  },
 ];
 
 export type Product = {
